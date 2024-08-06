@@ -1,0 +1,15 @@
+// tsconfig.json
+{
+    "compilerOptions": {
+      // other options...
+      "typeRoots": ["./src/types", "./node_modules/@types"],
+      "baseUrl": "./src",
+      "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true, // Add this line
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+    }
+  }
+  
